@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Link from "next/link";
 
 const Header = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, []);
   return (
     <div className="flex w-full justify-center ">
       <div className="w-3/4 bg-slate">
         <div className="w-11/12">
-          <div className="flex justify-between p-7">
+          <div data-aos="fade-down" className="flex justify-between p-7">
             <div className="text-slatelight font-bold px-5 text-3xl hover:text-teal transition duration-500 cursor-pointer">
               A
             </div>

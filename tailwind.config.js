@@ -22,6 +22,7 @@ module.exports = {
       teallight: "#CCD6F6",
       teallight2: "#8892B0",
       black: "#0000",
+      background: "#0f172a",
     },
   },
   plugins: [],

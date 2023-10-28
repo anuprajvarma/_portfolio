@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Homepage = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+    });
+  }, []);
+
   return (
     <div className="w-full flex justify-center ">
       <div className="flex justify-center w-3/4 items-center h-[35rem]">
-        <div className="w-10/12">
+        <div data-aos="fade-up" className="w-10/12">
           <p className="text-teal text-xs py-3">Hi, my name is</p>
           <p className="text-teallight text-6xl font-bold py-2">
             Anupraj Varma.
