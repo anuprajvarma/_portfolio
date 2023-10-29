@@ -15,21 +15,21 @@ const Header = () => {
         <div className="w-11/12">
           <div data-aos="fade-down" className="flex justify-between p-7">
             <div className="text-slatelight font-bold px-5 text-3xl hover:text-teal transition duration-500 cursor-pointer">
-              A
+              <Link href="#home">A</Link>
             </div>
             <div className="text-slatelight text-xs">
               <ul className="flex flex-row gap-12">
                 <li className=" hover:text-teal transition duration-700">
-                  <Link href="/about">About</Link>
+                  <Link href="#about">About</Link>
                 </li>
                 <li className="hover:text-teal transition duration-700">
-                  <Link href="/about">Project</Link>
+                  <Link href="#project">Project</Link>
                 </li>
                 <li className="hover:text-teal transition duration-700">
-                  <Link href="/about">Blog</Link>
+                  <Link href="#experience">Experience</Link>
                 </li>
                 <li className="hover:text-teal transition duration-700">
-                  <Link href="/about">Contact</Link>
+                  <Link href="#contact">Contact</Link>
                 </li>
               </ul>
             </div>

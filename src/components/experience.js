@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="w-full flex justify-center">
+    <div id="experience" className="w-full flex justify-center">
       <div className="flex justify-center w-3/4">
         <div data-aos="fade-up" className=" flex flex-col gap-10 w-6/12">
           <div className="flex flex-row gap-2">
