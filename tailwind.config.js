@@ -18,6 +18,7 @@ module.exports = {
       slate: "#0f172a",
       slatelight: "#cbd5e1",
       slatelight2: "#7E88A5",
+      slatelight3: "#112240",
       teal: "#2dd4bf",
       teallight: "#CCD6F6",
       teallight2: "#8892B0",
