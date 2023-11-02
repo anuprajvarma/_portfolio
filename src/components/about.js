@@ -158,7 +158,7 @@ const About = () => {
             </div>
             <div className="w-2/4 flex justify-center">
               <Image
-                className=" w-40 h-36 lg:w-4l4 lg:h-44 rounded-full lg:rounded-lg hover:-translate-x-1 hover:-translate-y-1 transition duration-700 hover:shadow-[4px_4px_0px_0px] hover:shadow-teal"
+                className=" w-40 h-36 lg:w-48 lg:h-48 rounded-full lg:rounded-lg hover:-translate-x-1 hover:-translate-y-1 transition duration-700 hover:shadow-[4px_4px_0px_0px] hover:shadow-teal"
                 src={MyPic}
                 alt="mypic"
               ></Image>
