@@ -8,11 +8,8 @@ import Link from "next/link";
 const Project = () => {
   return (
     <div id="project" className="w-full pt-10 flex justify-center">
-      <div className="flex justify-center w-7/12 items-center">
-        <div
-          data-aos="fade-up"
-          className="flex flex-col gap-5 w-full lg:w-10/1"
-        >
+      <div className="flex justify-center w-10/12  sm:w-8/12 items-center">
+        <div data-aos="fade-up" className="flex flex-col gap-5 w-full">
           <div className="flex flex-row gap-2">
             <p className="text-lg lg:text-xl font-semibold text-slatelight">
               <span>. </span>Some Thing I have Built
@@ -28,7 +25,7 @@ const Project = () => {
               href={"https://github.com/anuprajvarma/Sync_Code"}
             >
               <Image
-                className="transition  duration-700 box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px w-10/12 lg:w-6/12 h-72"
+                className="transition duration-700 box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px w-full lg:w-6/12 h-72"
                 src={SyncodeImage}
                 alt="mypic"
               ></Image>
@@ -36,7 +33,7 @@ const Project = () => {
             <Link
               href={"https://github.com/anuprajvarma/Sync_Code"}
               target="_blank"
-              className="bg-teal opacity-20 w-10/12 lg:w-6/12 h-72 absolute cursor-pointer hover:opacity-0 transition duration-500"
+              className="bg-teal opacity-20 w-full lg:w-6/12 h-72 absolute cursor-pointer hover:opacity-0 transition duration-500"
             ></Link>
             <div className="absolute lg:flex hidden w-10/12 py-5">
               <div className="flex items-end flex-col gap-3">
@@ -78,7 +75,7 @@ const Project = () => {
               href={"https://github.com/anuprajvarma/Sync_Code"}
             >
               <Image
-                className="transition  duration-700 box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px w-10/12 lg:w-6/12 h-72"
+                className="transition  duration-700 box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px w-full lg:w-6/12 h-72"
                 src={MovieHub}
                 alt="mypic"
               ></Image>
@@ -86,7 +83,7 @@ const Project = () => {
             <Link
               href={"https://github.com/anuprajvarma/Sync_Code"}
               target="_blank"
-              className="bg-teal opacity-20 w-10/12 lg:w-6/12 h-72 absolute cursor-pointer hover:opacity-0 transition duration-500"
+              className="bg-teal opacity-20 w-full lg:w-6/12 h-72 absolute cursor-pointer hover:opacity-0 transition duration-500"
             ></Link>
             <div className="absolute lg:flex hidden w-10/12 py-5">
               <div className="flex items-end flex-col gap-3">

@@ -12,7 +12,7 @@ const Homepage = () => {
 
   return (
     <div id="home" className="w-full flex justify-center ">
-      <div className="flex justify-center w-8/12 items-center h-[35rem]">
+      <div className="flex justify-center w-10/12  sm:w-8/12 items-center h-[35rem]">
         <div data-aos="fade-up" className="w-full lg:w-10/12">
           <p className="text-teal text-xs py-3">Hi, my name is</p>
           <p className="text-teallight text-4xl lg:text-6xl font-bold py-2">
@@ -23,14 +23,15 @@ const Homepage = () => {
           </p>
           <div className="w-6/12">
             <p className="py-5 text-slatelight2 text-xs lg:text-sm">
-              I’m a software engineer who developed cool websites which can
-              people use in real life. Currently, I’m working in kroto startup.
+              A full-stack software engineer who developed cool websites which
+              can people use in real life. Currently looking for full-time
+              software engineering opportunities
             </p>
           </div>
           <Link
             target="_blank"
             href={
-              "https://drive.google.com/file/d/1Bpury7OSB7_SHI7BFQbuxS5Y9pF1dLd_/view?usp=sharing"
+              "https://drive.google.com/file/d/1vNeq5tVz_-g33luN3d3fSjztww66aPwX/view?usp=drive_link"
             }
           >
             <button className="px-6 py-1 lg:px-10 lg:py-2 text-lg text-teal border border-teal hover:-translate-x-1 hover:-translate-y-1 transition duration-700 hover:shadow-[4px_4px_0px_0px] hover:shadow-teal rounded">

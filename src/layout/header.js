@@ -28,7 +28,7 @@ const Header = () => {
       <div className="w-full lg:w-3/4  bg-slate">
         <div className="w-11/12">
           <div data-aos="fade-down" className="flex w-full justify-between p-7">
-            <div className="text-slatelight font-bold pl-10 text-3xl hover:text-teal transition duration-500 cursor-pointer">
+            <div className="text-slatelight font-bold pl-5 sm:pl-10 text-3xl hover:text-teal transition duration-500 cursor-pointer">
               <Link href="#home">A</Link>
             </div>
             <div className="">

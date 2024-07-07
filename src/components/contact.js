@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div id="contact" className="w-full flex justify-center pt-28">
-      <div className="flex justify-center w-7/12">
+      <div className="flex justify-center w-10/12  sm:w-8/12">
         <div
           data-aos="fade-up"
           className="flex flex-col justify-center text-center gap-10 w-full lg:w-6/12"
