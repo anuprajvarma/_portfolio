@@ -83,7 +83,7 @@ const Experience = () => {
                   </svg>
                 </div>
                 <li>
-                  Create an "Audience" section on the page to facilitate sending
+                  Create an Audience section on the page to facilitate sending
                   event emails to all registered users efficiently
                 </li>
               </div>

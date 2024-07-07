@@ -32,13 +32,14 @@ const About = () => {
             <div className="w-2/4 text-xs lg:text-sm">
               <div>
                 <p className="text-slatelight2">
-                  I'm currently a fourth-year student. The universe has always
-                  fascinated me, but there's another world that equally captures
-                  my interest — the digital realm. I've been immersing myself in
-                  coding, first playing around with C++, and then getting into
-                  web development, learning about web technologies such as
-                  NextJS, Redux, and TypeScript. Nowadays, I spend most of my
-                  coding time crafting applications on the web.
+                  I&apos;m currently a fourth-year student. The universe has
+                  always fascinated me, but there&apos;s another world that
+                  equally captures my interest — the digital realm. I&apos;ve
+                  been immersing myself in coding, first playing around with
+                  C++, and then getting into web development, learning about web
+                  technologies such as NextJS, Redux, and TypeScript. Nowadays,
+                  I spend most of my coding time crafting applications on the
+                  web.
                   <br></br>
                   <br></br>
                   Some Technical Skills
