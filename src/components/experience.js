@@ -6,7 +6,7 @@ const Experience = () => {
       <div className="flex justify-center w-10/12  sm:w-8/12">
         <div
           data-aos="fade-up"
-          className=" flex flex-col gap-10 w-full lg:w-8/12"
+          className=" flex flex-col gap-10 w-full lg:w-10/12"
         >
           <div className="flex flex-row gap-2">
             <p className="text-lg lg:text-xl font-semibold text-slatelight">

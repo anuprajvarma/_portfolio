@@ -9,7 +9,7 @@ const Project = () => {
   return (
     <div id="project" className="w-full pt-10 flex justify-center">
       <div className="flex justify-center w-10/12  sm:w-8/12 items-center">
-        <div data-aos="fade-up" className="flex flex-col gap-5 w-full">
+        <div data-aos="fade-up" className="flex flex-col gap-5 w-full lg:w-10/12">
           <div className="flex flex-row gap-2">
             <p className="text-lg lg:text-xl font-semibold text-slatelight">
               <span>. </span>Some Thing I have Built
